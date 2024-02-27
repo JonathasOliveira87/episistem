@@ -42,7 +42,7 @@ body::before {
     left: 0;
     width: 90%;
     height: 100%;
-    background-image: url('img/bp.png');
+    background-image: url('bp.png');
     background-repeat: no-repeat;
     background-size: 45%;
     background-position: right;
