@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleLogin.css">
+  <title>Login</title>
+</head>
+<body>
+    <button onclick="toggleDarkMode()"><img class="dayNight" src="img/day-and-night.png" alt="day-and-night"></button>
+    <main>
+        <form action="" method="post">
+            <div class="logo">
+                <img src="img/logoEPI.png" alt="logotipo"><h1>EPI'Sistem</h1>
+            </div>
+            <p>Por favor, logue-se</p>
+            <input type="email" id="email" name="email" required placeholder="Email">
+            <input type="password" id="password" name="password" required placeholder="Password">
+            <input type="submit" value="Entrar">
+        </form>
+    </main>
+    <footer>
+        <p>Suporte</p>
+        <p>seunome@beeplan.co</p>
+    </footer>
+    <script>
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
